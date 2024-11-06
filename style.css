@@ -76,6 +76,11 @@ font-weight:900;
    box-shadow: 0px 11px 24px -10px rgba(66, 68, 90, 1);
 }
 
+.card:hover{
+   transform: scale(1.1)
+
+}
+
 .product-image img{
    object-fit: cover;
    width: 100%;
@@ -126,51 +131,6 @@ font-weight:900;
       
    }
 
-/* BOUTONS */
-.button{
-   width: fit-content;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding: 8px 16px;
-   border-radius: 8px;
-   border: solid 2.5px #8005F2;
-   text-decoration: none;
-   font-weight: 500;
-   transition: all .3s ease-in-out;
-}
-
-.button:hover{
-   border: solid 2.5px #ba79f8;
-}
-
-.primary{
-   background: #8005f2;
-   color: white;
-}
-
-.primary:hover{
-   background: #ba79f8;
-}
-
-.secondary{
-   background: transparent;
-   color: #8005F2;
-} 
-
-.secondary:hover{
-   color: #ba79f8;
-}
-
-.buttons-container{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 16px;
-}
-
-
-
 
 .avatar{
    width: 50px;
@@ -180,69 +140,116 @@ font-weight:900;
    object-fit: cover;
 }
 
-.link{
-   color: black;
-   font-weight: 400;
-   text-decoration: none;
-   transition: all .3s ease-in-out;
-}
-
-.link:hover{
-   color: #8005F2;
-}
-
-.element{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-}
-.hero{
-   width: 100vw;
-   height: 100vh;
-   background: url("assets/Hero.jpeg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.hero .titles{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 16px;
-}
-
-.hero h1, .hero p{
-   margin: 0;
-   text-transform: uppercase;
-   color: white;
-}
-.hero p{
-   font-weight: 400;
-}
-
-
-/* Les ID */
-   #logo{
+   /* TOOLS */
+   .element{
       display: flex;
       align-items: center;
-      justify-content: flex-start;
-      gap:8px;
-
-   }
-
-   #copyrights{
-      display: flex;
-      align-items: flex-end;
       justify-content: center;
-      height: 100px;
-      margin-bottom: 0;
-
-
+      width: 100%;
    }
+   
+   .button{
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: solid 2.5px #8005F2;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all .3s ease-in-out;
+   }
+   
+   .button:hover{
+      border: solid 2.5px #ba79f8;
+   }
+   
+   .primary{
+      background: #8005f2;
+      color: white;
+   }
+   
+   .primary:hover{
+      background: #ba79f8;
+   }
+   
+   .secondary{
+      background: transparent;
+      color: #8005F2;
+   } 
+   
+   .secondary:hover{
+      color: #ba79f8;
+   }
+   
+   .buttons-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+   }
+   
+   .link{
+      color: black;
+      font-weight: 400;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
+   }
+   
+   .link:hover{
+      color: #8005F2;
+   }
+
+   .hero{
+      width: 100vw;
+      height: 100vh;
+      background: url("assets/Hero.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   
+   .hero .titles{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+   }
+   
+   .hero h1, .hero p{
+      margin: 0;
+      text-transform: uppercase;
+      color: white;
+   }
+   .hero p{
+      font-weight: 400;
+   }
+
+   .titles{
+      display: flex;
+      gap:32px;
+   }
+/* Les ID */
+#logo{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap:8px;
+
+}
+
+#copyrights{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   height: 100px;
+   margin-bottom: 0;
+
+
+}
    
